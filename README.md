@@ -1,1 +1,2 @@
 # Counter
+- A simple counter
