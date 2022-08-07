@@ -1,0 +1,54 @@
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h1 {
+    font-size: 6.8rem;
+    align-self: center;
+}
+
+#value {
+    font-size: 10rem;
+    align-self: center;
+    margin-bottom: 3rem;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.btn {
+    font-size: 3.6rem;
+    border: .1rem solid black;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 .2rem .4rem 0 rgba(0, 0, 0, 0.451);
+}
+
+.decrease:hover {
+    border-color: red;
+}
+
+.increase:hover {
+    border-color: green;
+}
